@@ -1,121 +1,328 @@
 <html>
-    <title>W3.CSS TUGAS 12</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="w3.css">
-    <body>
-        <div class="w3-container">
-           <img src="gambar1.jpg" width="100%">
-        </div>
+  <title>W3.CSS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="w3.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+  />
+  <body style="background-color: white">
+    <div class="w3-container">
+      <img src="./img/atas.jpg" width="100%" height="50%" />
+    </div>
 
-        <div class="w3-bar w3-brown">
-            <button class="w3-bar-item w3-button" onclick="book ('Filosofi Teras')">Filosofi Teras</button>
-            <button class="w3-bar-item w3-button" onclick="book ('Laut Bercerita')">Laut Bercerita</button>
-            <button class="w3-bar-item w3-button" onclick="book ('Pulang')">Pulang</button>
-            <button class="w3-bar-item w3-button" onclick="book ('Ikigai')">Ikigai</button>
-            <button class="w3-bar-item w3-button" onclick="book ('Rasa')">Rasa</button>
-            <button class="w3-bar-item w3-button" onclick="book ('Dunia Sophie')">Dunia Sophie</button>
-            <button class="w3-bar-item w3-button" onclick="book ('Profile')">Profile</button>
-        </div>
+    <div class="w3-bar w3-brown w3-round-large">
+      <button class="w3-bar-item w3-button" onclick="book ('Filosofi Teras')">
+        Filosofi Teras
+      </button>
+      <button class="w3-bar-item w3-button" onclick="book ('Laut Bercerita')">
+        Laut Bercerita
+      </button>
+      <button class="w3-bar-item w3-button" onclick="book ('Ikigai')">
+        Ikigai
+      </button>
+      <button class="w3-bar-item w3-button" onclick="book ('Rasa')">
+        Rasa
+      </button>
+      <button class="w3-bar-item w3-button" onclick="book ('Dunia Sophie')">
+        Dunia Sophie
+      </button>
+      <button class="w3-bar-item w3-button" onclick="book ('Profile')">
+        Profile
+      </button>
+    </div>
 
-        <div id="Filosofi Teras" class="w3-container book w3-animate-top" style="display: none;">
-            <center>
-                <h2><b>Filosofi Teras</b></h2>
-                <img src="satu.jfif"></center>
-                <p>Buku ini pada awalnya menceritakan tentang sebuah survei kekhawatiran nasional yang semakin masif sekaligus menyajikan tentang sekilas kehidupan si penulis yang dipenuhi oleh emosi negatif yang berlebihan. Lalu, lebih dari 2000 tahun lalu sebuah mazhab filsafat menemukan akar masalah dan solusi dari banyaknya emosi negatif. Ya, Stoisisme atau filosofi Stoa, namun penulis lebih memperkenalkannya dengan “Filosofi Teras” yang merupakan filsafat Yunani-Romawi Kuno yang dapat membantu kita dalam mengatasi emosi negatif serta menghasilkan mental seseorang menjadi tangguh dalam menghadapi naik turunnya kehidupan. Dalam buku tersebut, filsafat Stoa digambarkan secara sederhana dengan inti dikotomi kendali nasib manusia sehingga dari dikotomi kendali tersebut, manusia dapat menentukan hal-hal yang dapat membuatnya bahagia maupun tidak. Namun, Wiliam Irvine menawarkan trikotomi kendali di mana memuat apa yang menjadi kendali kita, tidak menjadi kendali kita, dan juga menjadi bagian dari kendali kita.
-                </p>
+    <div
+      id="Home"
+      class="w3-container book w3-animate-zoom"
+      style="display: block"
+    >
+      <p>
+        <center>
+          <img src="./img/menu.jpg" width="500px" />
+          <h3><b>TOP 5 BOOKS TO READ BEFORE YOU DIE</b></h3>
+        </center>
+      </p>
+    </div>
 
-                <p>
-                Buku Filosofi Teras ini sangat berbeda dengan buku filsafat lainnya karena filosofi teras (Stoa) digambarkan dengan analogi kejadian yang real di kehidupan sehari-hari dan penggunanan bahasa yang sesuai dengan Generasi Milenial dan Gen-Z. Hal yang menarik dari Filosofi Teras ini terletak pada tujuannya yaitu hidup dalam ketenangan dan terbebas dari emosi negatif. Oleh karena itu, pada setiap bab Filososfi Teras terdapat pelajaran yang diambil, salah satunya yaitu dalam menjalani kehidupan harus selaras dengan alam. Di mana kehidupan berjalan sesuai kehendak pencipta-Nya dan selaras dengan alam itu berarti kita harus mengandalkan akal kita agar tidak terbawa arus yang menyimpang. Apalagi sekarang ini banyak di antara kita yang menggunakan medsos dan sering ditemui berita hoaks, sehingga kita tidak boleh terbawa emosi dan tidak baperan. Satu hal yang haru kita ingat, jangan terlalu memikirkan hal yang belum terjadi ke depannya, biarkan berjalan sebagaimana mestinya, namun tetap diiringi dengan effort supaya mendapat hasil yang maksimal. Secara keseluruhan buku ini menarik dan recommended banget untuk dibaca.
-                </p>
-        </div>
+    <div
+      id="Filosofi Teras"
+      class="w3-container book w3-animate-top"
+      style="display: none"
+    >
+      <p>
+        <center>
+          <img src="./img/satu.jfif" />
+          <h2><b>Filosofi Teras by Henry Manampiring</b></h2>
+        </center>
+      </p>
+      <hr />
+      <p>
+        Buku ini pada awalnya menceritakan tentang sebuah survei kekhawatiran
+        nasional yang semakin masif sekaligus menyajikan tentang sekilas
+        kehidupan si penulis yang dipenuhi oleh emosi negatif yang berlebihan.
+        Lalu, lebih dari 2000 tahun lalu sebuah mazhab filsafat menemukan akar
+        masalah dan solusi dari banyaknya emosi negatif. Ya, Stoisisme atau
+        filosofi Stoa, namun penulis lebih memperkenalkannya dengan “Filosofi
+        Teras” yang merupakan filsafat Yunani-Romawi Kuno yang dapat membantu
+        kita dalam mengatasi emosi negatif serta menghasilkan mental seseorang
+        menjadi tangguh dalam menghadapi naik turunnya kehidupan. Dalam buku
+        tersebut, filsafat Stoa digambarkan secara sederhana dengan inti
+        dikotomi kendali nasib manusia sehingga dari dikotomi kendali tersebut,
+        manusia dapat menentukan hal-hal yang dapat membuatnya bahagia maupun
+        tidak. Namun, Wiliam Irvine menawarkan trikotomi kendali di mana memuat
+        apa yang menjadi kendali kita, tidak menjadi kendali kita, dan juga
+        menjadi bagian dari kendali kita.
+      </p>
 
-        <div id="Laut Bercerita" class="w3-container book w3-animate-left" style="display: none;">
-            <center>
-                <h2><b>Laut Bercerita</b></h2>
-                <img src="dua.jfif"></center>
-                <p>Laut Bercerita menceritakan terkait perilaku kekejaman dan kebengisan yang dirasakan oleh kelompok aktivis mahasiswa di masa Orde Baru. Tidak hanya itu, novel ini pun merenungkan kembali akan hilangnya 13 aktivis, bahkan sampai saat ini belum juga ada yang mendapatkan petunjuknya.
-                </p>
-                
-                <p>
-                Cerita dalam novel Laut Bercerita terbagi menjadi dua bagian dengan jarak waktu yang jauh berbeda. Adapun bagian pertama diceritakan melalui sudut pandang tokoh bernama Biru Laut beserta para kawan sesama aktivisnya seraya menyelesaikan visi atau tujuan mereka. Sementara pada bagian kedua, kisahnya diambil dari sudut pandang Asmara Jati, adik dari Laut yang mempunyai tujuan atau visi yang cenderung berlainan dengan Laut.</p>
-        </div>
+      <p>
+        Buku Filosofi Teras ini sangat berbeda dengan buku filsafat lainnya
+        karena filosofi teras (Stoa) digambarkan dengan analogi kejadian yang
+        real di kehidupan sehari-hari dan penggunanan bahasa yang sesuai dengan
+        Generasi Milenial dan Gen-Z. Hal yang menarik dari Filosofi Teras ini
+        terletak pada tujuannya yaitu hidup dalam ketenangan dan terbebas dari
+        emosi negatif. Oleh karena itu, pada setiap bab Filososfi Teras terdapat
+        pelajaran yang diambil, salah satunya yaitu dalam menjalani kehidupan
+        harus selaras dengan alam. Di mana kehidupan berjalan sesuai kehendak
+        pencipta-Nya dan selaras dengan alam itu berarti kita harus mengandalkan
+        akal kita agar tidak terbawa arus yang menyimpang. Apalagi sekarang ini
+        banyak di antara kita yang menggunakan medsos dan sering ditemui berita
+        hoaks, sehingga kita tidak boleh terbawa emosi dan tidak baperan. Satu
+        hal yang haru kita ingat, jangan terlalu memikirkan hal yang belum
+        terjadi ke depannya, biarkan berjalan sebagaimana mestinya, namun tetap
+        diiringi dengan effort supaya mendapat hasil yang maksimal. Secara
+        keseluruhan buku ini menarik dan recommended banget untuk dibaca.
+      </p>
+    </div>
 
-        <div id="Pulang" class="w3-container book w3-animate-right" style="display: none;">
-            <center>
-                <h2><b>Pulang</b></h2>
-                <img src="pulang.jfif"></center>
-                <p>Pulang yang kali ini bukanlah pulang dengan perjalanan seperti pada umumnya. Sebab pulang kali ini adalah petualangan yang sangat berkesan melewati pertarungan demi pertarungan, yang tidak akan pernah terbayangkan oleh si tokoh utama di buku ini.</p>
+    <div
+      id="Laut Bercerita"
+      class="w3-container book w3-animate-left"
+      style="display: none"
+    >
+      <center>
+        <p>
+          <img src="./img/dua.jfif" />
+        </p>
+        <h2><b>Laut Bercerita by Leila Salikha Chudori</b></h2>
+        <hr />
+      </center>
+      <p>
+        Laut Bercerita menceritakan terkait perilaku kekejaman dan kebengisan
+        yang dirasakan oleh kelompok aktivis mahasiswa di masa Orde Baru. Tidak
+        hanya itu, novel ini pun merenungkan kembali akan hilangnya 13 aktivis,
+        bahkan sampai saat ini belum juga ada yang mendapatkan petunjuknya.
+      </p>
 
-                <p>Namanya Bujang, usia lima belas tahun. Lahir dan besar di kampung pedalaman Sumatra, bersama bapaknya yang bernama Samad, seorang mantan jagal terkemuka yang meninggalkan masa lalu hitamnya. Mamaknya sendiri bernama Midah, seorang keturunan pemuka agama.</p>
-                    
-                <p>Bermula saat Tauke Muda (teman bapaknya), menginjakkan kaki di tanah kelahiran Bujang. Tauke Muda datang dengan satu rombongannya, datang dari kota untuk melakukan perburuan besar-besaran. Mereka akan memburu babi hutan yang akhir-akhir ini berhasil meresahkan warga di kampung.</p>
-                    
-                <p>Terlepas dari Bujang yang mengikuti perburuan hebat itu. Bujang yang tidak tahu bahwa bapaknya Samad ini punya sejarah hitam. Yang akhirnya memberikan pengaruh kepadanya, membuat dia harus ikut  Tauke Muda ke kota menjadi bagian dari Kelurga Tong, keluarga yang dipimpin oleh Tauke Muda.</p>
-                    
-                <p>Cerita berlanjut ke bagaimana Bujang mengerti apa itu konsep shadow economy, juga cerita mengenai proses Bujang menjadi “penyelesai masalah” nomer satu di Keluarga Tong. Kita diperkenalkan dengan beberapa karakter yang selama ini membantu dan menjadi guru bagi Bujang, dari mulai bidang akademis, menembak, pertarungan tangan kosong, hingga teknik beladiri dari jepang lengkap dengan senjatanya juga dipelajari.</p>
-                    
-                <p>Setelah dua puluh tahun, dibawah asuhan Tauke Muda, Bujang telah tumbuh menjadi pemuda yang gagah, jenius, kuat, dan tidak mengenal rasa takut. Bujang telah hebat, dia diberi julukan Si Babi Hutan. Menjadi bagian dari Keluarga Tong, salah satu keluarga penguasa shadow economy.</p>    
-                    
-                <p>Selain menceritakan bagian masa lalu itu, disini juga secara bersamaan menceritakan kejadian yang sekarang, dimana ada konflik antar penguasa shadow economy yang harus di selesaikan oleh Bujang. Bukan hanya masalah dari luar ternyata ada konflik lain yang ternyata muncul dari dalam, dan mengancam Keluarga Tong ini.</p>
-                    
-                <p>Pengkhianatan, pertarungan, bagaimana Bujang akhirnya memeluk semua kebencian dan rasa sakit, semuanya membuat emosi pembaca dibawa naik turun tidak karuan, seru sekali. Akhir ceritanya juga tidak terduga. Kalau kalian mau tahu bagaimana keseruan dan  akhir cerita buku ini, kalian bisa baca bukunya langsung.</p>
-        </div>
+      <p>
+        Cerita dalam novel Laut Bercerita terbagi menjadi dua bagian dengan
+        jarak waktu yang jauh berbeda. Adapun bagian pertama diceritakan melalui
+        sudut pandang tokoh bernama Biru Laut beserta para kawan sesama
+        aktivisnya seraya menyelesaikan visi atau tujuan mereka. Sementara pada
+        bagian kedua, kisahnya diambil dari sudut pandang Asmara Jati, adik dari
+        Laut yang mempunyai tujuan atau visi yang cenderung berlainan dengan
+        Laut.
+      </p>
+    </div>
 
-        <div id="Ikigai" class="w3-container book w3-animate-zoom" style="display: none;">
-            <center>
-                <h2><b>Ikigai</b></h2>
-                <img src="ikigai.jfif"></center>
-                <p>Buku ini seolah hadir sebagai penawar akan berbagai keresahan mengenai hidup yang kita rasakan. Disajikan dengan bahasa yang sederhana tanpa adanya sugar coated explanation dapat menjadikan buku ini sebagai bahan refleksi yang tepat bagi kita yang hidup di tengah era globalisasi di mana semuanya dituntut untuk bergerak dengan cepat. Keseluruhan isi dari buku ini seolah menyuruh kita untuk sedikit melambat dengan mengikuti flows dalam diri masing-masing sehingga kita dapat merenungkan dan menikmati bagaimana kehidupan berlalu setiap detiknya. Yang ingin ditekankan penulis di sini adalah agar kita fokus dalam menjalani kehidupan saat ini tanpa merasa terkekang dengan masa lalu dan tanpa dihantui masa depan yang belum pasti.</p>
+    <div
+      id="Ikigai"
+      class="w3-container book w3-animate-zoom"
+      style="display: none"
+    >
+      <center>
+        <p>
+          <img src="./img/ikigai.jfif" />
+        </p>
+        <h2>
+          <b>Ikigai by Hector Garcia Puigcerver</b>
+        </h2>
+      </center>
+      <hr />
+      <p>
+        Buku ini seolah hadir sebagai penawar akan berbagai keresahan mengenai
+        hidup yang kita rasakan. Disajikan dengan bahasa yang sederhana tanpa
+        adanya sugar coated explanation dapat menjadikan buku ini sebagai bahan
+        refleksi yang tepat bagi kita yang hidup di tengah era globalisasi di
+        mana semuanya dituntut untuk bergerak dengan cepat. Keseluruhan isi dari
+        buku ini seolah menyuruh kita untuk sedikit melambat dengan mengikuti
+        flows dalam diri masing-masing sehingga kita dapat merenungkan dan
+        menikmati bagaimana kehidupan berlalu setiap detiknya. Yang ingin
+        ditekankan penulis di sini adalah agar kita fokus dalam menjalani
+        kehidupan saat ini tanpa merasa terkekang dengan masa lalu dan tanpa
+        dihantui masa depan yang belum pasti.
+      </p>
 
-                <p>Rumusan dari 4 elemen dasar Ikigai yang saling terkait dan 10 aturan dalam Ikigai yang dituliskan penulis memudahkan kita sebagai pembaca untuk mempraktikkan rahasia hidup bahagia di kehidupan sehari-hari. Saat mencoba perlahan-lahan untuk mengubah pola hidup ke arah yang lebih baik sesuai dengan konsep Ikigai maka kedamaian akan menyelimuti diri kita. Rasanya hidup ini bukan sekadar mengejar hasrat sesaat saja, tetapi hidup ini memiliki makna mendalam yang di dalamnya terdiri dari berbagai hal kecil yang tanpa kita sadari merupakan sesuatu yang berharga. Percayalah dengan menemukan Ikigai maka kita akan termotivasi untuk terus bergerak meskipun itu untuk pencapaian yang kecil.</p>
-        </div>
+      <p>
+        Rumusan dari 4 elemen dasar Ikigai yang saling terkait dan 10 aturan
+        dalam Ikigai yang dituliskan penulis memudahkan kita sebagai pembaca
+        untuk mempraktikkan rahasia hidup bahagia di kehidupan sehari-hari. Saat
+        mencoba perlahan-lahan untuk mengubah pola hidup ke arah yang lebih baik
+        sesuai dengan konsep Ikigai maka kedamaian akan menyelimuti diri kita.
+        Rasanya hidup ini bukan sekadar mengejar hasrat sesaat saja, tetapi
+        hidup ini memiliki makna mendalam yang di dalamnya terdiri dari berbagai
+        hal kecil yang tanpa kita sadari merupakan sesuatu yang berharga.
+        Percayalah dengan menemukan Ikigai maka kita akan termotivasi untuk
+        terus bergerak meskipun itu untuk pencapaian yang kecil.
+      </p>
+    </div>
 
-        <div id="Rasa" class="w3-container book w3-animate-bottom" style="display: none;">
-            <center>
-                <h2><b>Rasa</b></h2>
-                <img src="lima.jpg"></center>
-                <p>Novel Rasa Tere Liye ini recommended dibaca mulai usia SMA hingga dewasa. Bahasanya mengalir, ceritanya menghadirkan banyak rasa, serta kita bisa mendapatkan banyak inspirasi dan hikmah di dalamnya.</p>
+    <div
+      id="Rasa"
+      class="w3-container book w3-animate-bottom"
+      style="display: none"
+    >
+      <center>
+        <p>
+          <img src="./img/lima.jpg" />
+        </p>
+        <h2><b>Rasa by Tere Liye</b></h2>
+      </center>
+      <hr />
+      <p>
+        Novel Rasa Tere Liye ini recommended dibaca mulai usia SMA hingga
+        dewasa. Bahasanya mengalir, ceritanya menghadirkan banyak rasa, serta
+        kita bisa mendapatkan banyak inspirasi dan hikmah di dalamnya.
+      </p>
 
-                <p>Bagi kamu yang masih terjebak dengan masa lalu, membenci apa yang telah terjadi, dan belum bisa memaafkan, novel ini bisa menjadi teman yang baik untuk belajar mengelola rasa itu. Novel ini mengajak kita untuk memeluk erat semua rasa marah, benci, dan sakit hati.  Novel ini mengajak kita untuk mengikhlaskan, memeluk masa lalu dengan penerimaan. Dan ketika kita telah menerima semua takdir Tuhan, kita akan lebih bahagia mengenang masa lalu dan lebih siap menapaki masa depan.</p>
-        </div>
+      <p>
+        Bagi kamu yang masih terjebak dengan masa lalu, membenci apa yang telah
+        terjadi, dan belum bisa memaafkan, novel ini bisa menjadi teman yang
+        baik untuk belajar mengelola rasa itu. Novel ini mengajak kita untuk
+        memeluk erat semua rasa marah, benci, dan sakit hati. Novel ini mengajak
+        kita untuk mengikhlaskan, memeluk masa lalu dengan penerimaan. Dan
+        ketika kita telah menerima semua takdir Tuhan, kita akan lebih bahagia
+        mengenang masa lalu dan lebih siap menapaki masa depan.
+      </p>
+    </div>
 
-        <div id="Dunia Sophie" class="w3-container book w3-animate-right" style="display: none;">
-            <center>
-                <h2><b>Dunia Sophie</b></h2>
-                <img src="enam.jfif"></center>
-                <p>Bagi pecinta buku bergenre fantasi sekaligus filsafat, buku Dunia Sophie bisa menjadi alternatif pilihan bacaan. Buku keempat karya Jostein Gaarder yang dibuat pada tahun 1991 ini merupakan salah satu karya yang popular di Norwegia. Kali ini kita akan membahas lebih dalam buku Dunia Sophie.</p>
+    <div
+      id="Dunia Sophie"
+      class="w3-container book w3-animate-right"
+      style="display: none"
+    >
+      <center>
+        <p>
+          <img src="./img/enam.jfif" />
+        </p>
+        <h2><b>Dunia Sophie by Jostein Gaarder</b></h2>
+      </center>
+      <hr />
+      <p>
+        Bagi pecinta buku bergenre fantasi sekaligus filsafat, buku Dunia Sophie
+        bisa menjadi alternatif pilihan bacaan. Buku keempat karya Jostein
+        Gaarder yang dibuat pada tahun 1991 ini merupakan salah satu karya yang
+        popular di Norwegia. Kali ini kita akan membahas lebih dalam buku Dunia
+        Sophie.
+      </p>
 
-                <p>Buku ini bercerita tentang seorang gadis bernama Sophie Amundsen yang tinggal hanya berdua dengan ibunya di pinggiran kota di Norwegia. Sebagai gadis umur empat belas tahun Sophie terbiasa dengan misteri kehidupan sampai ia menemukan surat berisi “Siapakah dirimu? Dari mana asalnya dunia?” yang dialamatkan pada Hilde Møller Knag, d/a Sophie Amundse.</p>
-                    
-                <p>Lewat pertanyaan sederhana ini Sophie memulai petualang mencari jawaban atas pertanyaan-pertanyaan yang tertulis dalam surat misterius tersebut. Dan siapa sangka Sophie beruntung dapat bertemu dan belajar langsung dari si pengirim surat sekaligus seorang filsuf berumur lima puluh tahun, Alberto Knox.</p>
-                    
-                <p>Lewat buku Dunia Sophie pembaca akan dibawa untuk mengenal lebih dalam mengenai pertanyaan yang selama ini tidak pernah dipertanyakan. Dari pertanyaan tersebut, pembaca akan dibawa memahami siapa dirinya sendiri dan dari mana datangnya dunia ini.</p>
-                    
-                <p>Buku Dunia Sophie akan menambah wawasan Anda akan semakin bertambah dengan kisah para filsuf yang berusaha menemukan jawaban yang selama ini menjadi misteri bagi mereka. Kelebihan buku ini adalah memaparkan setiap pemikiran filsuf dari setiap era, mulai dari klasik hingga kontemporer menggunakan bahasa yang mudah dipahami oleh orang yang sama sekali belum pernah belajar filsafat.</p>
-                    
-                <p>Kekurangan buku ini adalah alurnya yang terlalu berbelit-belit membuat pembaca menjadi bosan. Apalagi buku Dunia Sophie tidak memiliki anti klimaks yang membuat pembaca menjadi kaget dengan misteri siapakah Hilde Møller Knag yang sebenarnya dan apa hubungannya dengan Sophie.</p>
-                    
-                <p>Namun, buku ini akan sangat direkomendasikan bagi Anda yang tertarik membaca novel fantasi dan filsafat secara bersamaan. Filsafat yang dihadirkan dalam buku ini akan membawa pengetahuan awal mengenai diri sendiri, asal dunia dan pemikiran tokoh-tokoh filsafat.</p>
-        </div>
+      <p>
+        Buku ini bercerita tentang seorang gadis bernama Sophie Amundsen yang
+        tinggal hanya berdua dengan ibunya di pinggiran kota di Norwegia.
+        Sebagai gadis umur empat belas tahun Sophie terbiasa dengan misteri
+        kehidupan sampai ia menemukan surat berisi “Siapakah dirimu? Dari mana
+        asalnya dunia?” yang dialamatkan pada Hilde Møller Knag, d/a Sophie
+        Amundse.
+      </p>
 
-        <div id="Profile" class="w3-container book w3-animate-right" style="display: none;">
-            <center>
-            <h2><b>Profile</b></h2>
-            <img src="upin.jfif">
-            <p>NAMA : GARI BALDI</p>
-            <p>NIM : 10122271</p>
-            </center>
-        </div>
+      <p>
+        Lewat pertanyaan sederhana ini Sophie memulai petualang mencari jawaban
+        atas pertanyaan-pertanyaan yang tertulis dalam surat misterius tersebut.
+        Dan siapa sangka Sophie beruntung dapat bertemu dan belajar langsung
+        dari si pengirim surat sekaligus seorang filsuf berumur lima puluh
+        tahun, Alberto Knox.
+      </p>
 
-        <script>
-            function book(namabuku) {
-             var i;
-             var x = document.getElementsByClassName("book");
-             for (i = 0; i < x.length; i++) {
-             x[i].style.display = "none";
-             }
-             document.getElementById(namabuku).style.display = "block"; 
-            }
-        </script>
-    </body>
+      <p>
+        Lewat buku Dunia Sophie pembaca akan dibawa untuk mengenal lebih dalam
+        mengenai pertanyaan yang selama ini tidak pernah dipertanyakan. Dari
+        pertanyaan tersebut, pembaca akan dibawa memahami siapa dirinya sendiri
+        dan dari mana datangnya dunia ini.
+      </p>
+
+      <p>
+        Buku Dunia Sophie akan menambah wawasan Anda akan semakin bertambah
+        dengan kisah para filsuf yang berusaha menemukan jawaban yang selama ini
+        menjadi misteri bagi mereka. Kelebihan buku ini adalah memaparkan setiap
+        pemikiran filsuf dari setiap era, mulai dari klasik hingga kontemporer
+        menggunakan bahasa yang mudah dipahami oleh orang yang sama sekali belum
+        pernah belajar filsafat.
+      </p>
+
+      <p>
+        Kekurangan buku ini adalah alurnya yang terlalu berbelit-belit membuat
+        pembaca menjadi bosan. Apalagi buku Dunia Sophie tidak memiliki anti
+        klimaks yang membuat pembaca menjadi kaget dengan misteri siapakah Hilde
+        Møller Knag yang sebenarnya dan apa hubungannya dengan Sophie.
+      </p>
+
+      <p>
+        Namun, buku ini akan sangat direkomendasikan bagi Anda yang tertarik
+        membaca novel fantasi dan filsafat secara bersamaan. Filsafat yang
+        dihadirkan dalam buku ini akan membawa pengetahuan awal mengenai diri
+        sendiri, asal dunia dan pemikiran tokoh-tokoh filsafat.
+      </p>
+    </div>
+
+    <div
+      id="Profile"
+      class="w3-container book w3-animate-top"
+      style="display: none"
+    >
+      <center>
+        <h2><b>Profile</b></h2>
+        <p><b>NAMA : GARI BALDI</b></p>
+        <p><b>NIM : 10122271</b></p>
+      </center>
+    </div>
+
+    <center>
+      <button class="w3-button w3-block w3-brown" onclick="book('Home')">
+        Home
+      </button>
+    </center>
+
+    <footer class="footer-distributed">
+      <div class="footer-right">
+        <a href="https://wa.me/6283120685622"
+          ><i class="fab fa-whatsapp"></i
+        ></a>
+        <a href="https://twitter.com/urfavwm"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com/qarfitt"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://github.com/qaribaldi"><i class="fab fa-github"></i></a>
+      </div>
+
+      <div class="footer-left">
+        <p class="footer-links">
+          <a class="link-1" href="#">Home</a>
+
+          <a href="#">Blog</a>
+
+          <a href="#">Pricing</a>
+
+          <a href="#">About</a>
+
+          <a href="#">Faq</a>
+
+          <a href="#">Contact</a>
+        </p>
+
+        <p>Gari Baldi</p>
+      </div>
+    </footer>
+    <script>
+      function book(namabuku) {
+        var i;
+        var x = document.getElementsByClassName("book");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        document.getElementById(namabuku).style.display = "block";
+      }
+    </script>
+  </body>
 </html>
